@@ -1,7 +1,7 @@
 import React from "react";
 import StockTable from "./components/StockTable";
 
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 const App = () => {
