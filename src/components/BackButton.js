@@ -5,7 +5,7 @@ const BackButton = () => {
   return (
     <nav>
       <div>
-        <Link to="/" className="backButton">
+        <Link to="/" className="back-button">
           Back
         </Link>
       </div>
