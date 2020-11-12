@@ -3,8 +3,6 @@ import { iex } from "../config/iex.js";
 
 import axios from "axios";
 
-// import ListGroup from "react-bootstrap/ListGroup";
-
 const CompanyData = ({ name }) => {
   const [info, setInfo] = useState({});
 
@@ -24,8 +22,8 @@ const CompanyData = ({ name }) => {
 
   return (
     <>
-      <ul className="list-group-flush">
-        <li>Price: {close}</li>
+      <ul className="data-list">
+        <li>Price: ${parseFloat(close).toFixed(2)}</li>
         <li>Date: {date}</li>
         <li>Time: {label}</li>
       </ul>
